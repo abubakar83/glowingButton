@@ -77,4 +77,45 @@ html {
 }
 .glowing-text {
     text-shadow: 0 0 1rem rgba(201, 24, 74, 0.7), 0 0 1rem rgba(201, 24, 74, 0.7);
+    animation: textAnim 3s linear infinite
+}
+
+@keyframes textAnim {
+    0%{
+        opacity: 0.1;
+    }
+
+    2%{
+        opacity: 1;
+    }
+    8%{
+        opacity: 0.1;
+    }
+    9%{
+        opacity: 1;
+    }
+    12%{
+        opacity: 0.1;
+    }
+    20%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0.3;
+    }
+    30%{
+        opacity: 1;
+    }
+    70%{
+        opacity: .7;
+    }
+    72%{
+        opacity: 0.2;
+    }
+    77%{
+        opacity: 0.9;
+    }
+    100%{
+        opacity: 1;
+    }
 }
