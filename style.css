@@ -30,6 +30,29 @@ html {
     cursor: pointer;
     position: relative;
     perspective: 6rem;
+    animation: borderAnim 2s linear infinite;
+}
+
+@keyframes borderAnim {
+    0%{
+        opacity: 0.1;
+    }
+
+    2%{
+        opacity: 1;
+    }
+    4%{
+        opacity: 0.1;
+    }
+    8%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 .glowing-btn::before {
     content: "";
