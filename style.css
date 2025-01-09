@@ -87,6 +87,14 @@ html {
     transform: translate(-50%, 130%) rotateX(45deg) scale(1, 0.35);
     filter: blur(3rem); 
 }
+
+.glowing-btn:hover::after{
+    width: 120%;
+    height: 120%;
+    transform: translate(-50%, 110%) rotateX(45deg) scale(1, 0.35);
+    filter: blur(5rem);
+    transition: all 0.3s;
+}
 .glowing-text {
     text-shadow: 0 0 1rem rgba(201, 24, 74, 0.7), 0 0 1rem rgba(201, 24, 74, 0.7);
     animation: textAnim 3s linear infinite
