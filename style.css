@@ -31,6 +31,13 @@ html {
     position: relative;
     perspective: 6rem;
     animation: borderAnim 2s linear infinite;
+    transition: all 0.3s;
+}
+
+.glowing-btn:hover{
+    background: rgb(201, 24, 74);
+    color: #27292b;
+    animation: none;
 }
 
 @keyframes borderAnim {
