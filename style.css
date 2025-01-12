@@ -97,9 +97,11 @@ html {
 }
 .glowing-text {
     text-shadow: 0 0 1rem rgba(201, 24, 74, 0.7), 0 0 1rem rgba(201, 24, 74, 0.7);
-    animation: textAnim 3s linear infinite
+    animation: textAnim 3s linear infinite;
 }
-
+.glowing-btn:hover.glowing-text{
+    animation: none;
+}
 @keyframes textAnim {
     0%{
         opacity: 0.1;
